@@ -1,0 +1,67 @@
+page-login {
+    .content{
+        padding-top: 20%;
+        
+    }
+    .login{
+        background-color: blue;
+
+    }
+    .username{
+        background-color: blue;
+        color: white;
+        width:80%;
+        margin-left:20px;
+        
+    }
+    .password{
+        background-color: blue;
+        color:white;
+        width:80%;
+        margin-left:40px;
+        
+    } 
+    .btn{
+        width: 80%;
+        background-color: blueviolet;
+        color:black;
+        
+    }
+    .toolbar-title-md {
+        padding: 0 2px;
+        font-size: 2rem;
+        font-weight: 500;
+        color: white;
+    }
+    // .main-logo{
+    //     border-radius: 50%
+    // }
+    .item-input ion-input, .item-input ion-textarea {
+        position: static;
+        color: white;
+    }
+    
+ .scroll-content {
+    padding: 0px !important; 
+    }
+    .button-md {
+        border-radius: 2px;
+        overflow: hidden;
+        height: 3.6rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: white;
+        background-color:blue;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin: 0.4rem 3.2rem;
+        padding: 0 1.1em;
+    }
+    
+    
+}

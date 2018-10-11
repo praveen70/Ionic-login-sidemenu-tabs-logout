@@ -1,0 +1,36 @@
+
+
+<ion-content >
+    <!-- <h1>attendance Page</h1> -->
+    
+    <h4>Attendance</h4>
+  <div  *ngFor="let item of items">
+    <br/>
+      <ion-card  class="attendance-card" >
+        
+          <ion-card-header >
+            <!-- <strong>Student Name:</strong>
+              {{item.studentName}}
+              <strong>Roll Number:</strong>
+              {{item.rollNumber}} -->
+          <strong ><h2><i class="fa fa-desktop" style="font-size:48px;color:white"></i>
+          
+           <span class='pull-right' style="font-size:38px;" >{{item.fields.ID}}</span>
+          </h2></strong>
+              
+          </ion-card-header >
+        
+          <ion-card-content class="card-header-md">
+            <ion-list>
+              
+            <!-- <ion-item>
+
+              <ion-radio  checked></ion-radio>
+            </ion-item>   -->
+            <span class='pull-right'><button ion-button round (click)="studentList(item);" class='button'><i class="fa fa-arrow-right"></i></button></span>
+          </ion-list>
+          </ion-card-content>
+          
+        </ion-card>
+      </div> 
+</ion-content>

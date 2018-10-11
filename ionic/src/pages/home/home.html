@@ -1,0 +1,30 @@
+<ion-header>
+
+    <ion-card class="card">
+        <ion-card-header>
+            <button ion-button menuToggle class="menu" style='box-shadow: 0 !important'>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+            <ion-title class='title'>Dashboard</ion-title>
+
+        </ion-card-header>
+        <ion-card-content>
+            <ion-avatar item-start class="image">
+                <img style='border-radius: 80%' class='image-tag' src="/assets/imgs/img_avatar2.png">
+                <strong ><p >Pallavi</p></strong>
+            </ion-avatar>
+
+        </ion-card-content>
+    </ion-card>
+
+</ion-header>
+
+<ion-content padding >
+    <ion-tabs color='primary' >
+        <ion-tab [root]="tab1Root" tabTitle="Attendence" tabIcon="md-paper" ></ion-tab>
+        <ion-tab [root]="tab2Root" tabTitle="Sms" tabIcon="chatbubbles"></ion-tab>
+        <ion-tab [root]="tab3Root" tabTitle="ExamMark" tabIcon="clipboard"></ion-tab>
+    
+
+    </ion-tabs>
+</ion-content>

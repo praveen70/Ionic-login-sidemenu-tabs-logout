@@ -1,0 +1,22 @@
+
+
+
+<ion-content padding class="login">
+    
+  <div class="content">
+  <img src="/assets/imgs/vidyarthe-transparent.png" class='main-logo'/>
+    <ion-list style='color: white'>
+        <ion-item class="username" >
+          <ion-label floating class="username" >Username</ion-label>
+          <ion-input type="text" [(ngModel)]="username"></ion-input>
+        </ion-item>
+      
+        <ion-item class="password">
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+    
+      </ion-list>
+      <button ion-button class='btn' (click)='login();' >Login</button>
+    </div>
+</ion-content>

@@ -1,0 +1,4 @@
+#Sat Oct 06 02:20:10 IST 2018
+base.0=/home/praveen/Desktop/schoolFirebase/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

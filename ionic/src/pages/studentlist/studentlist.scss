@@ -1,0 +1,43 @@
+page-studentlist {
+    .button[icon-only].my-style-for-modal {
+        margin: 0 6px;
+        min-width: 36px;
+        background-color: blue;
+     }
+     .toolbar-md {
+        padding: 16px;
+        min-height: 56px;
+    }
+        .nav-bar{
+            background-color: blue;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        }
+        /* Zebra striping */
+        tr:nth-of-type(odd) { 
+            background: #eee; 
+        }
+        th { 
+            background: #333; 
+            color: white; 
+            font-weight: bold; 
+        }
+        td, th { 
+            padding: 0px; 
+            border: 1px solid #ccc; 
+            text-align: left; 
+        }
+        
+      .student-list{
+          background-color: white;
+      }
+      .student-header{
+          color:black;
+          background-color: ivory;;
+      }
+        // ion-app.md [padding] .scroll-content {
+        //     padding: 0px;
+        // }
+}

@@ -1,0 +1,54 @@
+page-attendance {
+    .attendance-card{
+        background-color:  #59b0cc  !important;
+        color:white;
+        opacity: 1;
+        padding: 10px;
+        
+        font-size: 18px !important;
+        max-height: min-content;
+       margin-block-end:10px;
+       border-radius: 10%;
+       
+
+    }
+    table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 0px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+    }
+    .headers{
+        width:100%;
+    }
+    .card-header-md {
+       
+        color:white;
+        padding: 16px;
+        line-height: 20px;
+
+    }
+    page-attendance .card-header-md {
+        font-size: 20px;
+        color: #222;
+        padding: 16px;
+        line-height: 20px;
+    }
+    .button{
+        background-color: blue;
+        align-content:center;
+    }
+
+}
